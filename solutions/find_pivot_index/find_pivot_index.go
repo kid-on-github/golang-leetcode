@@ -3,9 +3,8 @@ package findpivotindex
 func pivotIndex(nums []int) int {
 	runningSum := []int{nums[0]}
 
-	for _, num := range nums[1:] {
-		prev := runningSum[len(runningSum)-1]
-		runningSum = append(runningSum, num+prev)
+	for i, num := range nums[1:] {
+		runningSum = append(runningSum, num+runningSum[i])
 	}
 
 	total := runningSum[len(runningSum)-1]
