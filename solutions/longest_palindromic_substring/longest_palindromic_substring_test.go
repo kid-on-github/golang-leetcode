@@ -9,7 +9,7 @@ type testInput struct {
 	expected string
 }
 
-func TestRunningSum(t *testing.T) {
+func Test(t *testing.T) {
 
 	tests := []testInput{
 		{

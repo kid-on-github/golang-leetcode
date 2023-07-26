@@ -15,7 +15,7 @@ type testInput struct {
 	expected []int
 }
 
-func TestTwoSum(t *testing.T) {
+func Test(t *testing.T) {
 
 	tests := []testInput{
 		{

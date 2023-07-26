@@ -7,7 +7,7 @@ type testInput struct {
 	expected int
 }
 
-func TestPivotIndex(t *testing.T) {
+func Test(t *testing.T) {
 
 	tests := []testInput{
 		{
