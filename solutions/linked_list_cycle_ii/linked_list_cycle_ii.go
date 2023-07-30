@@ -6,6 +6,7 @@ import (
 
 type ListNode = linkedlist.ListNode
 
+// find start of cycle
 func detectCycle(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {
 		return nil
