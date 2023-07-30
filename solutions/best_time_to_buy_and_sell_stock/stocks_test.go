@@ -18,7 +18,7 @@ func Test(t *testing.T) {
 			expected: 0,
 		},
 		{
-			input:    []int{2,1,2,1,0,1,2},
+			input:    []int{2, 1, 2, 1, 0, 1, 2},
 			expected: 2,
 		},
 	}
@@ -37,5 +37,4 @@ func Test(t *testing.T) {
 			)
 		}
 	}
-
 }
